@@ -4,6 +4,7 @@ body {
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 	color: #2E282A;
+	background-color: #F3F2F0;
 }
 
 h4, a, h1, p {
@@ -13,5 +14,115 @@ h4, a, h1, p {
 
 a {
 	text-decoration: none;
+	color: #354C30;
+}
+
+.hidden {
+	display: none;
+}
+
+.section1 {
+	background-color: #FFE600;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.section2 {
+	background-color: #F3F2F0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.section3 {
+	background-color: #2B303A;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	max-width: 1100px;
+	padding: 80px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#section1image, #section2image {
+	max-width: 80%;
+	height: auto;
+	margin: 0 auto;
+	align-self: flex-end;
+}
+
+#section1Heading {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+}
+
+#section1Author {
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif; 
+}
+
+#section1Blurb {
+	font-size: 20px;
+	width: 450px;
+	margin: 0 50px 0 0;
+}
+
+#section2Blurb {
+	width: 400px;
+	margin: 0 50px 0 0;
+	font-size: 20px;
+}
+
+#button {
+	padding: 5px 10px;
+	background-color: #FF7702;
+	color: white;
+	font-size: 18px;
+	border-radius: 2px;
+}
+
+#button:hover {
+	background-color: #D80000;
+}
+
+#section2Heading {
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif;
+}
+
+#section2Author {
+	font-size: 16px;
+}
+
+.section3text {
+	max-width: 400px;
+	align-self: flex-start;
+}
+
+.footer {
+	text-align: center;
+	padding: 10px 10px;
+}
+
+.section3Quote {
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	font-weight: 400;
+}
+
+
+.section3Author {
+	color: #FEE30A;
+}
+
+.middle {
+	margin: 40px;
 }
 
